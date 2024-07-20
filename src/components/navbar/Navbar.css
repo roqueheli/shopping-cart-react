@@ -1,0 +1,13 @@
+.navbar-cart {
+    display: none;
+}
+
+@media(max-width: 991px) {
+    .cart-icon {
+        display: none;
+    }
+
+    .navbar-cart {
+        display: block;
+    }
+}
